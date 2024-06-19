@@ -1,10 +1,7 @@
 body {
     background: black;
 }
-.dark-mode{
-    background-color: #032a33;
-    color: beige;
-}
+
 .clock {
     position: absolute;
     top: 50%;
@@ -14,9 +11,7 @@ body {
     font-size: 20px;
     font-family: Orbitron;
     letter-spacing: 7px;
-   
 }
-
 
 .date {
     position: absolute;
@@ -27,7 +22,23 @@ body {
     font-size: 20px;
     font-family: Orbitron;
     letter-spacing: 7px;
-   
 
+}
 
+.dark-mode {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* Change this to black */
+    transition: all 1s ease-in-out;
+}
+
+.body-color {
+    background-color: rgb(104, 102, 102);
+    color: rgb(15, 148, 55);
+    transition: all 1s ease-in-out;
+
+}
+
+.time{
+    color: yellow;
 }
